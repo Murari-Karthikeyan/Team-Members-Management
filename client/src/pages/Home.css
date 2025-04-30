@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* Light gradient background */
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .home-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .home-card h1 {
+    font-size: 2.5rem;
+    color: #2f3e46;
+    margin-bottom: 10px;
+  }
+  
+  .home-card p {
+    font-size: 1.1rem;
+    color: #4b5563;
+    margin-bottom: 30px;
+  }
+  
+  .home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .home-buttons a {
+    text-decoration: none;
+  }
+  
+  .home-buttons button {
+    background-color: #4f46e5;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .home-buttons button:hover {
+    background-color: #3730a3;
+    transform: translateY(-2px);
+  }
+  

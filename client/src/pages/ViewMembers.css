@@ -1,0 +1,12 @@
+/* src/pages/ViewMembers.css */
+.members-container {
+    padding: 20px;
+  }
+  
+  .members-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
